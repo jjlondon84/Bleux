@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva;
+}
+
+.primer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #1E172F;
+}
+
+.uno1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+.uno2 {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+.uno2 li a {
+    text-decoration: none;
+    color: #c4c4d4;
+    font-size: 14px;
+}
+
+.descarga {
+    background: linear-gradient(to right, #7C45D5, #0E7AD5);
+    color: #ffffff;
+    padding: 8px 22px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.segundo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 140px;
+    background-color: #2E2550;
+    min-height: 400px;
+}
+
+.producto1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #ffffff;
+    max-width: 400px;
+}
+
+.dos1 h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.dos2 p {
+    font-size: 15px;
+    color: #c4c4d4;
+    line-height: 1.6;
+}
+
+.dos3 {
+    display: flex;
+    gap: 15px;
+    padding: auto;
+    margin-top: 10px;
+    border: solid #ffffff;
+    border-radius: 4px;
+    border-width: 2px;
+    font-weight: 400;
+
+}
+
+.boton1 {
+    background: #ffffff;
+    color: #F6439E;
+    padding: 10px 25px;
+    border: #ffffff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.boton2 {
+    background: #2E2550;
+    color: #ffffff;
+    border: solid #ffffff;
+    padding: 10px 25px;
+    border-radius: 4px;
+    border-width: 2px;
+    font-weight: 400;
+
+}
+
+.hojitas {
+    display: flex;
+    align-items: center;
+    background-image: url(../assets/hojasFondo.jpg);
+    width: 350px;
+    height: 350px;
+}
+
+.hojitas img {
+    width: 200px;
+    height: auto;
+}
