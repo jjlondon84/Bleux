@@ -22,7 +22,6 @@ body {
     gap: 10px;
     width: 40px;
     height: 40px;
-    object-fit: contain;
     margin-left: 100px;
 }
 
@@ -51,22 +50,22 @@ body {
 
 .segundo {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 140px;
+    width: 100%;
+    height: 80vh;
     background-color: #2E2550;
-    min-height: 400px;
+    align-items: center;
+
 }
 
 .producto1 {
     display: flex;
+    width: 50%;
     flex-direction: column;
     gap: 20px;
-    color: #ffffff;
-    max-width: 400px;
 }
 
 .dos1 h1 {
+    color: #ffffff;
     font-size: 48px;
     font-weight: 700;
     line-height: 1.1;
@@ -79,14 +78,12 @@ body {
 }
 
 .dos3 {
-    display: flex;
-    gap: 15px;
-    padding: auto;
-    margin-top: 10px;
-    border: solid #ffffff;
+    border: solid gray;
+    padding: 5px;
     border-radius: 4px;
     border-width: 2px;
-    font-weight: 400;
+    width: 285px;
+    height: 50px;
 
 }
 
@@ -103,7 +100,7 @@ body {
     background: #2E2550;
     color: #ffffff;
     border: solid #ffffff;
-    padding: 10px 25px;
+    padding: 8px 27px;
     border-radius: 4px;
     border-width: 2px;
     font-weight: 400;
@@ -112,13 +109,87 @@ body {
 
 .hojitas {
     display: flex;
-    align-items: center;
     background-image: url(../assets/hojasFondo.jpg);
-    width: 350px;
-    height: 350px;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
 }
 
 .hojitas img {
-    width: 200px;
-    height: auto;
+    width: 29%;
+    height: 69%;
+    margin-right: 35%;
+    margin-top: 110px;
+}
+
+.tercer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 100px;
+    background-color: #ffffff;
+}
+
+.tres1 {
+    color: #F6439E;
+    font-size: 60px;
+}
+
+.tres2 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 48px;
+}
+
+.tres2 img {
+    width: 350px;
+    height: 220px;
+    transform: translateY(-20px);
+}
+
+.tres2 h6 {
+    font-weight: 390;
+    font-size: 34px;
+    color: #F6439E;
+    margin-bottom: 30px;
+}
+
+.tres2 p {
+    font-size: 15px;
+    color: #666;
+    max-width: 380px;
+}
+
+.tres2 h4 {
+    font-size: 20px;
+    color: #F6439E;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.tres3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.viñetass {
+    flex-direction: column;
+    gap: 6px;
+}
+
+.fila {
+    display: flex;
+    gap: 8px;
+}
+
+.fila .viñeta1 {
+    color: #F6439E;
+    font-size: 14px;
+}
+
+.fila p {
+    font-size: 14px;
+    color: #555;
 }
