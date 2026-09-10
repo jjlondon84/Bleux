@@ -382,40 +382,56 @@ footer img{
     
 }
 @media (min-width: 352px) and (max-width: 480px) {
-    
-    .cajas{
-    flex-direction: column;
+    .primer{
+        flex-direction: column;
     }
     .uno1{
-        margin-left: 1px;
-        margin-right: 24%;
+        margin-right:78%;
+    
     }
-    .tres2{
-        flex-direction: column;
+    .uno2{
+        justify-content: center;
+        margin-right: 0;
+        gap: 12px;
+        margin-top: 20px;
     }
     .segundo{
         flex-direction: column;
-        
+        height: auto;
+    }
+    .producto1{
+        width: 100%;
+        padding: 20px;
     }
     .hojitas{
         width: 100%;
     }
-   .primer{
-    flex-direction: column;
+    .tres1{
+        font-size: 34px;
     }
-    .uno2{
-        margin-right: 1px;
-        margin-top: 12px;
-    }
-    .producto1{
-        padding-left: 1px;
+    .tres2{
+        flex-direction: column;
     }
     .tercer{
-        padding: 221px 1px 40px;
-        
+        padding: 40px 16px;
     }
-    .tres2 img{
-        transform: translateY(30px);
+    .cajas{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 16px 40px;
+    }
+    .caja1,.caja2,.caja3{
+        width: 100%;
+        max-width: 300px;
+    }
+    .cuatro1{
+        padding: 40px 16px 100px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px 16px;
+        text-align: center;
     }
    
 }
